@@ -1,11 +1,11 @@
 #!/bin/bash
 REDISPORT=6379
 
-REDISPATH=/home/apps/redis-5.0.8/src
+REDISPATH=/program/redis-5.0.7/src
 EXEC=${REDISPATH}/redis-server
 CLIEXEC=${REDISPATH}/redis-cli
 PIDFILE=/var/run/redis_${REDISPORT}.pid
-CONF=/home/apps/redis-5.0.8/redis.conf
+CONF=/program/redis-5.0.7/redis.conf
 
 case "$1" in
   start)
